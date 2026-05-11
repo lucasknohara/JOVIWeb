@@ -115,3 +115,72 @@ body {
     position: relative;
     z-index: 20; 
 }
+
+/* O container azul (badge) */
+.badge-mais {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1c1c1c; 
+    overflow: hidden; 
+}
+
+/* A imagem dentro do badge */
+.img-badge {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Faz a imagem caber certinho no espaço */
+    display: block;
+}
+
+/* Estilo para os itens de modo na grade */
+.item-modo-criado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.wrapper-icone {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #444;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-principal {
+    width: 25px;
+}
+
+/* O círculo cinza para "Novo Modo" */
+.circulo-novo-modo {
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.nome-modo {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80px;
+}
