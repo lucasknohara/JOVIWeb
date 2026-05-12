@@ -16,7 +16,7 @@ botao.addEventListener("click", () => {
     
     let confimacao = prompt("Deseja mesmo criar esse modo?")
     
-    if (confimacao.toLowerCase() === "sim" && confimacao !== null) {
+    if (confimacao !== null && confimacao.toLowerCase() === "sim") {
 
         const novoModo = {
             nome: nomeModo,
