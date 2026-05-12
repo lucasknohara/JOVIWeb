@@ -14,7 +14,7 @@ botao.addEventListener("click", () => {
         return;
     };
     
-    let confimacao = prompt("Deseja mesmo criar esse modo?")
+    let confimacao = prompt("Deseja mesmo criar esse modo? (Sim/Não)")
     
     if (confimacao !== null && confimacao.toLowerCase() === "sim") {
 
